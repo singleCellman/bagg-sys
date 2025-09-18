@@ -1,0 +1,4 @@
+model.pt
+码垛空间288*147*55
+长min45	宽min33	高min20
+长max66	宽max46	高max28

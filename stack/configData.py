@@ -1,0 +1,15 @@
+import global_value as gv
+
+gv.init()
+gv.loadFromFile(False)
+spaceLength = gv.getParam('gridX')
+spaceWidth = gv.getParam('gridY')
+spaceHeight = gv.getParam('gridZ')
+baggageLength_min = gv.getParam('baggageLengthMin')
+baggageLength_max = gv.getParam('baggageLengthMax')
+baggageWidth_min = gv.getParam('baggageWidthMin')
+baggageWidth_max = gv.getParam('baggageWidthMax')
+baggageThick_min = gv.getParam('baggageThickMin')
+baggageThick_max = gv.getParam('baggageThickMax')
+internal_node_holder = gv.getParam('leafNode')
+leaf_node_holder = gv.getParam('internalNode')
